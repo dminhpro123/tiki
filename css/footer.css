@@ -1,0 +1,64 @@
+footer {
+    background-color: #FFFFFF;
+    padding-top: 10px;
+}
+
+.footer-1 {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    color: #808089;
+    text-align: left;
+}
+
+.footer-1 ul {
+    list-style-type: none;
+}
+
+.footer-1 h4 {
+    color: black;
+}
+
+.footer-1 span {
+    cursor: pointer;
+}
+
+.footer-1 a {
+    color: black;
+}
+
+.footer-1 span:hover,
+.footer-1 a:hover {
+    text-decoration: underline;
+}
+
+.Certified {
+    display: flex;
+    flex-direction: row;
+}
+
+.Certified img {
+    cursor: pointer;
+}
+
+.social-network {
+    display: flex;
+    flex-direction: row;
+}
+
+.social-network img {
+    width: 32px;
+    cursor: pointer;
+}
+
+.download-store {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    background-color: #FFFFFF;
+}
+
+.download-store img {
+    width: 122px;
+    cursor: pointer;
+}

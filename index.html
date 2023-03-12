@@ -13,6 +13,7 @@
 
     <link href="./css/header.css" rel="stylesheet">
     <link href="./css/index.css" rel="stylesheet">
+    <link href="./css/footer.css" rel="stylesheet">
 </head>
 
 <body>
@@ -136,30 +137,31 @@
                     <div class="col-5" style="padding: 0;
                     margin: 0;">
                         <div class="image-product">
-                            <img src="./image/main/product/1.png" />
+                            <img src="./image/main/product/1.png" onclick="onClick(this)"
+                                style="width:100%;cursor:pointer" id="opac" />
                         </div>
                         <div class="group-product-image">
-                            <a>
+                            <a href="">
                                 <img width="62px"
                                     src="https://salt.tikicdn.com/cache/100x100/ts/product/34/f4/73/1e42349a04cdf7caf79c01c680bfa773.jpg.webp" />
                             </a>
-                            <a>
+                            <a href="">
                                 <img width="62px"
                                     src="https://salt.tikicdn.com/cache/100x100/ts/product/03/6c/4a/f6681a76527c2332ac769fc528db0e98.jpg.webp" />
                             </a>
-                            <a>
+                            <a href="">
                                 <img width="62px"
                                     src="https://salt.tikicdn.com/cache/100x100/ts/product/c4/45/85/4fff32f964e4bccb98ced6cf6a8c2b78.jpg.webp" />
                             </a>
-                            <a>
+                            <a href="">
                                 <img width="62px"
                                     src="	https://salt.tikicdn.com/cache/100x100/ts/product/58/95/9b/cb580f9aaf9d68828ed8f3f05723b9b1.jpg.webp" />
                             </a>
-                            <a>
+                            <a href="">
                                 <img width="62px"
                                     src="https://salt.tikicdn.com/cache/100x100/ts/product/2a/b2/ce/4a2e0841ae33024fd01047cfdafa00ee.jpg.webp" />
                             </a>
-                            <a>
+                            <a href="">
                                 <img width="62px" src="./image/main/product/Capture.PNG" />
                             </a>
                         </div>
@@ -607,6 +609,89 @@
             </div>
         </div>
     </main>
+
+    <footer>
+        <div class="container">
+            <div class="row">
+                <div class="col-12">
+                    <div class="footer-1">
+                        <div>
+                            <h4><strong>Hỗ trợ khách hàng</strong></h4>
+                            <ul>
+                                <li>Hotline: <a href="">1900-6035</a><br>
+                                    (1000 đ/phút, 8-21h kể cả T7, CN)</li>
+                                <li><span>Các câu hỏi thường gặp</span></li>
+                                <li><span>Gửi yêu cầu hỗ trợ</span></li>
+                                <li><span>Hướng dẫn đặt hàng</span></li>
+                                <li><span>Phương thức vận chuyển</span></li>
+                                <li><span>Chính sách đổi trả</span></li>
+                                <li><span>Hướng dẫn trả góp</span></li>
+                                <li><span>Chính sách hàng nhập khẩu</span></li>
+                                <li>Hỗ trợ khách hàng:<span>&nbsp;hotro@tiki.vn</span></li>
+                                <li>Báo lỗi bảo mật:<span>&nbsp;security@tiki.vn</span></li>
+                            </ul>
+                        </div>
+                        <div>
+                            <h4><strong>Về Tiki</strong></h4>
+                            <ul>
+                                <li><span>Giới thiệu Tiki</span></li>
+                                <li><span>Tiki Blog</span></li>
+                                <li><span>Tuyển dụng</span></li>
+                                <li><span>Chính sách bảo mật thanh toán</span></li>
+                                <li><span>Chính sách bảo mật thông tin cá nhân</span></li>
+                                <li><span>Chính sách giải quyết khiếu nại</span></li>
+                                <li><span>Điều khoản sử dụng</span></li>
+                                <li><span>Giới thiệu Tiki Xu</span></li>
+                                <li><span>Gửi Astra nhận Xu mua sắm thả ga</span></li>
+                                <li><span>Tiếp thị liên kết cùng Tiki</span></li>
+                                <li><span>Bán hàng doanh nghiệp</span></li>
+                                <li><span>Điều kiện vận chuyển</span></li>
+                            </ul>
+                        </div>
+                        <div>
+                            <h4><strong>Hợp tác và liên kết</strong></h4>
+                            <ul>
+                                <li><span>Quy chế hoạt động Sàn GDTMĐT</span></li>
+                                <li><span>Bán hàng cùng Tiki</span></li>
+                            </ul>
+                            <br>
+                            <h4><strong>Chứng nhận bởi</strong></h4>
+                            <div class="Certified">
+                                <img src="./image/footer/Certified-1.png" width="32px" />
+                                &nbsp;
+                                <img
+                                    src="https://frontend.tikicdn.com/_desktop-next/static/img/footer/bo-cong-thuong.svg" />
+                            </div>
+                        </div>
+                        <div>
+                            <h4><strong>Phương thức thanh toán</strong></h4>
+                            <img src="./image/footer/payment-methods.png" />
+                            <h4><strong>Dịch vụ giao hàng</strong></h4>
+                            <img style="cursor: pointer;" src="./image/footer/tiki-now.PNG" />
+                        </div>
+                        <div class="connect-with-us">
+                            <h4><strong>Kết nối với chúng tôi</strong></h4>
+                            <div class="social-network">
+                                <img src="./image/footer/fb-icon.png" class="img-circle" />&nbsp;&nbsp;
+                                <img src="./image/footer/youtube-icon.png" class="img-circle" />&nbsp;&nbsp;
+                                <img src="./image/footer/zalo-icon.png" class="img-circle" />
+                            </div>
+                            <h4><strong>Tải ứng dụng trên điện thoại</strong></h4>
+                            <div style="display: flex; flex-direction: row;justify-content: space-between;">
+                                <img width="80px" src="./image/footer/qrcode.png">
+                                <div class="download-store">
+                                    <img
+                                        src="https://frontend.tikicdn.com/_desktop-next/static/img/icons/appstore.png" />
+                                    <img
+                                        src="https://frontend.tikicdn.com/_desktop-next/static/img/icons/playstore.png" />
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
 </body>
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
     integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
