@@ -1,0 +1,149 @@
+html {
+    background-color: #efefef;
+}
+
+body {
+    font-size: 1vw;
+}
+
+header {
+    margin-bottom: 0;
+}
+
+button {
+    background-color: white;
+    border: 0;
+}
+
+a {
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: none;
+}
+
+/* head top */
+.head-top {
+    padding: 10px;
+}
+
+.logo {
+    width: 57px;
+    height: 40px;
+}
+
+.logo img {
+    width: 100%;
+    height: 100%;
+}
+
+.search-bar form {
+    display: flex;
+    flex-flow: row;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+    height: 40px;
+    border: 1px solid gray;
+    border-radius: 0.3rem;
+}
+
+.search-icon img {
+    width: 20px;
+    height: 20px;
+}
+
+.search-bar input {
+    width: 80%;
+    border: none;
+}
+
+.search-bar button {
+    border-left: 1px solid gray;
+}
+
+.i-header {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 100%;
+}
+
+.home-header {
+    height: 100%;
+    display: flex;
+    align-items: center;
+}
+
+.home-header a {
+    height: 100%;
+}
+
+.home-header img {
+    height: 100%;
+}
+
+.i-header img {
+    width: 24px;
+    height: 24px;
+}
+
+.cart {
+    display: flex;
+    align-items: center;
+    justify-content: end;
+    height: 100%;
+    border-left: 1px solid gray;
+}
+
+.cart img {
+    width: 24px;
+    height: 24px;
+}
+
+/* head mid */
+.header-category {
+    display: flex;
+    justify-content: space-around;
+}
+
+
+.head-mid a {
+    font-size: 1.2rem;
+    color: gray;
+}
+
+.address {
+    float: right;
+}
+
+.address img {
+    height: 20px;
+    width: 20px;
+}
+
+.address strong {
+    text-decoration: underline;
+}
+
+/* head bot */
+.head-bot {
+    background-color: #FFE880;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 40px;
+    margin-bottom: 0;
+}
+
+.head-bot a {
+    color: black;
+    display: flex;
+    font-size: 1.3rem;
+}
+
+.head-bot img {
+    width: 81px;
+    height: 12px;
+}
