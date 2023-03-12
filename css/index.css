@@ -469,3 +469,7 @@ main {
 .MultiCarousel-inner button {
     background-color: #FFFFFF !important;
 }
+
+::-webkit-scrollbar {
+    display: none;
+}
