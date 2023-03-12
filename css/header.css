@@ -56,7 +56,12 @@ a:hover {
 
 .search-bar input {
     width: 80%;
+    height: 98%;
     border: none;
+}
+
+.search-bar input:focus {
+    outline: none;
 }
 
 .search-bar button {
